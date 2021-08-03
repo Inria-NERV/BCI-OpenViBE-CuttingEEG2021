@@ -24,28 +24,29 @@ TBD
 ### Introduction
 
 ### Part 1, talks and Q&A
-#### What is BCI? Context, paradigms and applications
-#### What is OpenViBE? 
-#### Concrete examples of use of OpenViBE
-#### How does OpenViBE work?
-#### Q&A-1
+* What is BCI? Context, paradigms and applications
+* What is OpenViBE? 
+* Concrete examples of use of OpenViBE
+* How does OpenViBE work?
+* Q&A-1
 
 ### Part 2, BCI-CuttingEEG protocol and Q&A
 We will perform a simulation of motor imagery-based BCI experiment with a virtual subject. To this end, we will use OpenViBE to extract, preprocess and classify the EEG data.
 
-#### Chapter 0 - Prerequisites before performing a BCI experiment
+* Chapter 0 - Prerequisites before performing a BCI experiment
 
-#### Chapter 1 - BCI-CuttingEEG protocol set-up
+* Chapter 1 - BCI-CuttingEEG protocol set-up
 
-#### Chapter 2 - Features extraction and selection
+* Chapter 2 - Features extraction and selection
 
-#### Chapter 3 - Training/Running
+* Chapter 3 - Training/Running
 
-#### Q&A-2
+* Q&A-2
 
 ### Concluding remarks & Perspectives
-#### BONUS - OpenViBE
-#### BONUS - BCI current challenges
+* BONUS - OpenViBE
+* BONUS - BCI current challenges
+
 
 ## Tools & resources
 TBD
