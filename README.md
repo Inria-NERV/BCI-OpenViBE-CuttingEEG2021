@@ -13,7 +13,7 @@
 
 ## Audience/Prerequisites
 * Windows/Linux users curious about BCI !
-* Participants must install OpenViBE [PUT VERSION](http://openvibe.inria.fr/downloads/) **before** the workshop
+* Participants must install OpenViBE from [this page](http://openvibe.inria.fr/downloads/) **before** the workshop
 
 ## Objectives
 * Getting familiar with the main concepts of BCI
@@ -38,40 +38,51 @@
 ### Part 2, BCI-CuttingEEG protocol and Q&A - 2h
 We will perform a simulation of motor imagery-based BCI experiment with a virtual subject. To this end, we will use OpenViBE to extract, preprocess and classify the EEG data.
 
-* Chapter 0 - Prerequisites before performing a BCI experiment
-
-* Chapter 1 - BCI-CuttingEEG protocol set-up
-
-* Chapter 2 - Features extraction and selection
-
-* Chapter 3 - Training/Running
+* Chapter 1 - Prerequisites before performing a MI-BCI experiment
+  * Neurophysiological mechanisms
+  * Motor imagery-based BCI in practice
+* Chapter 2 - BCI-CuttingEEG protocol set-up
+  * Training data acquisition
+  * Classifier training scenario
+  * Online feedback  
+* Chapter 3 - Advanced steps
+  * Time epoching
+  * Scenario tutorials
+  * External scripting with Python
 
 * Q&A-2
 
 
 ### Concluding remarks & Perspectives - 30'
 * BONUS - OpenViBE
-* BONUS - BCI current challenges
+  * Developing OpenViBE boxes
+  * Forum, scripts & community 
+* BONUS - BCI research
+  * Current challenges
+  * Machine & User-centered approaches
 
 ---
 ## Tools & resources
-* OpenViBE: [official website](http://openvibe.inria.fr) & [citation](https://hal.archives-ouvertes.fr/hal-00477153)
+* OpenViBE - [official website](http://openvibe.inria.fr) & [citation](https://hal.archives-ouvertes.fr/hal-00477153)
   * download
   * tutorials
   * technical documentation
   * forum
 
 * Python toolboxes
-  * Open datasets and pipelines to perform replicable BCI studies in Python: [Mother of All BCI Benchmarks (MOABB)](https://github.com/NeuroTechX/moabb)
-  * M/EEG data analysis in Python: [MNE-Python](https://mne.tools/stable/index.html)
-  * Machine Learning tool in Python: [scikit-learn](https://scikit-learn.org/stable/)
+  * Open datasets and pipelines to perform replicable BCI studies: [Mother of All BCI Benchmarks (MOABB)](https://github.com/NeuroTechX/moabb)
+  * M/EEG data analysis: [MNE-Python](https://mne.tools/stable/index.html)
+  * Machine Learning tool: [scikit-learn](https://scikit-learn.org/stable/)
 
 ## References
-* [[Wolpaw et al, Clin Neurophysiol, 2002]](http://www.sciencedirect.com/science/article/pii/S1388245702000573) -> to start in the BCI domain
-* [[Pfurtscheller et al, Clin Neurophysiol, 1999]](https://www.sciencedirect.com/science/article/abs/pii/S1388245799001418) -> to learn more about event-related EEG/MEG (de)synchronization
-* [[Lotte et al, JNE, 2018]](https://iopscience.iop.org/article/10.1088/1741-2552/aab2f2) -> to learn more about classification algorithms used in EEG-based BCI
-* [[Clerc et al, Wiley, 2016a]](https://www.wiley.com/en-us/Brain+Computer+Interfaces+1%3A+Methods+and+Perspectives-p-9781848218260) -> Methods and Perspectives
-* [[Clerc et al, Wiley, 2016b]](https://www.wiley.com/en-us/Brain+Computer+Interfaces+2%3A+Technology+and+Applications-p-9781848219632) -> Technology and Applications
+* Papers
+  * [[Wolpaw et al, Clin Neurophysiol, 2002]](http://www.sciencedirect.com/science/article/pii/S1388245702000573) -> to start in the BCI domain
+  * [[Pfurtscheller et al, Clin Neurophysiol, 1999]](https://www.sciencedirect.com/science/article/abs/pii/S1388245799001418) -> to learn more about event-related EEG/MEG (de)synchronization
+  * [[Lotte et al, JNE, 2018]](https://iopscience.iop.org/article/10.1088/1741-2552/aab2f2) -> to learn more about classification algorithms used in EEG-based BCI
+ 
+* Books
+  * [[Clerc et al, Wiley, 2016a]](https://www.wiley.com/en-us/Brain+Computer+Interfaces+1%3A+Methods+and+Perspectives-p-9781848218260) -> Methods and Perspectives
+  * [[Clerc et al, Wiley, 2016b]](https://www.wiley.com/en-us/Brain+Computer+Interfaces+2%3A+Technology+and+Applications-p-9781848219632) -> Technology and Applications
 
 ---
 ## To go further...
