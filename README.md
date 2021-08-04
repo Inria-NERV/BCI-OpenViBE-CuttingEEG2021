@@ -11,10 +11,6 @@
 
 ---
 
-## Abstract (necessary???)
-TBD + outline
-
-
 ## Audience/Prerequisites
 * Windows/Linux users curious about BCI !
 * Participants must install OpenViBE [PUT VERSION](http://openvibe.inria.fr/downloads/) **before** the workshop
@@ -28,7 +24,7 @@ TBD + outline
 
 ---
 ## Timetable
-TODO: indicate the duration (for us) + update
+**TODO: update**
 
 ### Introduction - 5'
 
@@ -60,15 +56,15 @@ We will perform a simulation of motor imagery-based BCI experiment with a virtua
 ---
 ## Tools & resources
 * OpenViBE: [official website](http://openvibe.inria.fr) & [citation](https://hal.archives-ouvertes.fr/hal-00477153)
-** download
-** tutorials
-** technical documentation
-** forum
+  * download
+  * tutorials
+  * technical documentation
+  * forum
 
 * Python toolboxes
-** Open datasets and pipelines to perform replicable BCI studies in Python: [Mother of All BCI Benchmarks (MOABB)](https://github.com/NeuroTechX/moabb)
-** M/EEG data analysis in Python: [MNE-Python](https://mne.tools/stable/index.html)
-** Machine Learning tool in Python: [scikit-learn](https://scikit-learn.org/stable/)
+  * Open datasets and pipelines to perform replicable BCI studies in Python: [Mother of All BCI Benchmarks (MOABB)](https://github.com/NeuroTechX/moabb)
+  * M/EEG data analysis in Python: [MNE-Python](https://mne.tools/stable/index.html)
+  * Machine Learning tool in Python: [scikit-learn](https://scikit-learn.org/stable/)
 
 ## References
 * [[Wolpaw et al, Clin Neurophysiol, 2002]](http://www.sciencedirect.com/science/article/pii/S1388245702000573) -> to start in the BCI domain
