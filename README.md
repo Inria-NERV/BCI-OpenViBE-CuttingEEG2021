@@ -13,7 +13,7 @@
 
 ## Audience/Prerequisites
 * Windows/Linux users curious about BCI !
-* Participants must install OpenViBE from [this page](http://openvibe.inria.fr/downloads/) **before** the workshop
+* Participants must install OpenViBE from [this page](http://openvibe.inria.fr/downloads/) **before** the workshop. Please install from the "stable version" links (v 3.1.0).
 
 ## Objectives
 * Getting familiar with the main concepts of BCI
