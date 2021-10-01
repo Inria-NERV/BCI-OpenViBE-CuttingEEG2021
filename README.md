@@ -6,7 +6,7 @@
 
 :busts_in_silhouette: Organizers:
 
-* Arthur Desbois, Research Engineer, Aramis team-project, Inria Paris, Paris Brain Institute
+* [Arthur Desbois](https://www.linkedin.com/in/arthur-desbois-801a9313a/), Research Engineer, Aramis team-project, Inria Paris, Paris Brain Institute
 * [Marie-Constance Corsi](https://marieconstance-corsi.netlify.app), Postdoctoral Researcher, Aramis team-project, Inria Paris, Paris Brain Institute
 
 ---
@@ -14,6 +14,7 @@
 ## Audience/Prerequisites
 * Windows/Linux users curious about BCI !
 * Participants must install OpenViBE from [this page](http://openvibe.inria.fr/downloads/) **before** the workshop. Please install from the "stable version" links (v 3.1.0).
+* Linux users need to follow the [build instructions](http://openvibe.inria.fr/build-instructions/)
 
 ## Objectives
 * Getting familiar with the main concepts of BCI
@@ -24,7 +25,6 @@
 
 ---
 ## Timetable
-**TODO: update**
 
 ### Introduction - 5'
 
@@ -38,25 +38,21 @@
 ### Part 2, BCI-CuttingEEG protocol and Q&A - 2h
 We will perform a simulation of motor imagery-based BCI experiment with a virtual subject. To this end, we will use OpenViBE to extract, preprocess and classify the EEG data.
 
-* Chapter 1 - Prerequisites before performing a MI-BCI experiment
+* Intro - Prerequisites before performing a MI-BCI experiment
   * Neurophysiological mechanisms
   * Motor imagery-based BCI in practice
-* Chapter 2 - BCI-CuttingEEG protocol set-up
-  * Training data acquisition
-  * Classifier training scenario
-  * Online feedback  
-* Chapter 3 - Advanced steps
-  * Time epoching
-  * Scenario tutorials
-  * External scripting with Python
-
+* Workshop - BCI-CuttingEEG protocol set-up
+  * Part 1 - Training data acquisition
+  * Part 2 - Classifier training scenario
+  * Part 3 - Online feedback  
 * Q&A-2
-
 
 ### Concluding remarks & Perspectives - 30'
 * BONUS - OpenViBE
-  * Developing OpenViBE boxes
+  * Developing & prototyping OpenViBE boxes
   * Forum, scripts & community 
+  * Scenario tutorials
+  * External scripting & interfacing using Python
 * BONUS - BCI research
   * Current challenges
   * Machine & User-centered approaches
@@ -73,6 +69,7 @@ We will perform a simulation of motor imagery-based BCI experiment with a virtua
   * Open datasets and pipelines to perform replicable BCI studies: [Mother of All BCI Benchmarks (MOABB)](https://github.com/NeuroTechX/moabb)
   * M/EEG data analysis: [MNE-Python](https://mne.tools/stable/index.html)
   * Machine Learning tool: [scikit-learn](https://scikit-learn.org/stable/)
+  * LSL using Python - [pyLsl](https://github.com/labstreaminglayer/liblsl-Python)
 
 ## References
 * Papers
