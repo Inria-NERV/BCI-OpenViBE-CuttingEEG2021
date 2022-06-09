@@ -21,7 +21,7 @@
 					<TypeIdentifier>(0xb0d0db45, 0x49cbc34a)</TypeIdentifier>
 					<Name>Lua Script</Name>
 					<DefaultValue></DefaultValue>
-					<Value>C:/Users/arthur.desbois/Documents/dev/openvibeScripting/openvibe-automation/spectralpower-templates/mi-stimulations.lua</Value>
+					<Value>${Player_ScenarioDirectory}/motor-imagery-bci-graz-stimulator.lua</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
